@@ -1,0 +1,202 @@
+// 
+// Scaffolding
+// =============================================
+
+
+// 初始化
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary
+    display: block
+*
+    box-sizing(border-box)
+    &:before, &:after
+        box-sizing(border-box)
+
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,
+ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td
+    margin:0
+    padding:0
+
+body,button,input,select,textarea
+    font:14px/1.5 europa,'Helvetica Neue', 'Helvetica', sans-serif
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+
+h1,h2,h3,h4,h5,h6
+    font-size:100%
+    font-family: "freight-sans-pro", sans-serif
+
+address,cite,dfn,em,var
+    font-style:normal
+
+code,kbd,pre,samp
+    font-family:Menlo,Monaco,Consolas,"Courier New",monospace
+
+small
+    font-size:12px
+
+ul,ol
+    list-style:none
+a
+    color: #444
+    text-decoration:none
+    &:hover
+        text-decoration: none
+        color: #145c98
+
+sup
+    vertical-align:text-top
+
+sub
+    vertical-align:text-bottom
+
+legend
+    color:#000
+
+fieldset,img
+    border:0
+
+button,input,select,textarea
+    font-size:100%
+
+table
+    border-collapse:collapse
+    border-spacing:0
+
+::selection
+    background: #fd6ca3
+    color: #fff
+    text-shadow: none
+
+.clearfix 
+    &:before,
+    &:after 
+        content: " "
+        display: table
+    &:after
+        clear: both
+body
+    background-color: body
+    color: bodyColor
+
+span.block
+    display: block
+
+#header
+    text-align: center
+    border-bottom: 10px solid #f5f5f5
+
+.hero
+    position: relative
+    padding: 50px 0 0
+    height: 500px
+    h1
+        font-size: 42px
+        font-weight: 700
+    h2
+        font-size: 18px
+        text-transform: uppercase
+        font-weight: 400
+        letter-spacing: 1px
+        margin: 0
+        color: #bbc1c7
+    div
+        position: absolute
+        background-position: 0 0
+        background-repeat: no-repeat
+        bottom: 0
+
+    .macbook-pro
+        width: 280px
+        height: 147px
+        left: 10%
+        background-image: url('../images/macbook-pro.png')
+        z-index: 0
+    .imac
+        width: 380px
+        height: 295px
+        left: 35%
+        background-image: url('../images/imac.png')
+        z-index: 0
+    .keyboard
+        width: 161px
+        height: 8px
+        left: 38%
+        background-image: url('../images/keyboard.png')
+        z-index: 1
+    .magic-mouse
+        width: 43px
+        height: 10px
+        left: 60%
+        background-image: url('../images/magic-mouse.png')
+    .cup
+        width: 43px
+        height: 60px
+        left: 66%
+        background-image: url('../images/cup.png')
+    .iphone
+        width: 43px
+        height: 3px
+        left: 71%
+        background-image: url('../images/iphone.png')
+    .book-html
+        width: 26px
+        height: 96px
+        left: 76%
+        background-image: url('../images/book-html.png')
+    .book-javascript
+        width: 36px
+        height: 116px
+        left: 79%
+        background-image: url('../images/book-javascript.png')
+    .book-python
+        width: 30px
+        height: 96px
+        left: 83%
+        background-image: url('../images/book-python.png')
+    .book-css
+        width: 22px
+        height: 96px
+        left: 87%
+        background-image: url('../images/book-css.png')
+
+h4
+    display: inline-block
+    text-transform: uppercase
+    font-size: 16px
+    font-weight: 400
+    letter-spacing: 1px
+    border-bottom: 2px solid #ccc
+    padding-bottom: 5px
+    margin-bottom: 20px
+
+.about
+    color: #bbc1c7
+    padding: 100px 0
+    background-color: #2b323a
+    h4
+        border-bottom: 2px solid #41474e
+    a
+        color: #fff
+
+.design-list
+    li
+        position: relative
+        display: inline-block
+        width: 25%
+        img
+            width: 100%
+.footer
+    background: #f4f4f4
+    padding: 100px 0
+    text-align: center

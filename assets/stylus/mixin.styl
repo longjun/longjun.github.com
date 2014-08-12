@@ -1,0 +1,28 @@
+// 
+// Mixin
+// =============================================
+vendor(prop, args)
+    -webkit-{prop} args
+    -moz-{prop} args
+    -o-{prop} args
+    {prop} args
+
+// 动画
+animation()
+    vendor('animation', arguments)
+
+// Box sizing
+box-sizing(boxmodel)
+    -webkit-box-sizing: boxmodel
+    -o-box-sizing: boxmodel
+    box-sizing: boxmodel
+
+// 圆角边框
+border-radius()
+    vendor('border-radius', arguments)
+
+// 阴影
+box-shadow() 
+    -moz-box-shadow arguments
+    -webkit-box-shadow arguments
+    box-shadow arguments
