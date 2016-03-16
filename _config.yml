@@ -1,0 +1,4 @@
+name: "longjun"
+markdown: redcarpet
+pygments: true
+permalink: /post/:title
